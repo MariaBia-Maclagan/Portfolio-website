@@ -1,0 +1,39 @@
+:root{
+    --header-font:'Josefin Sans', sans-serif; 
+    --secondary-font:'PT Sans Narrow', sans-serif ;
+    --primary-color: ;
+
+}
+.hero{
+    background-color: bisque;
+    text-align: center;
+    margin: 0;
+    padding: 160px 20px 130px;
+}
+.hero p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: var(--secondary-font);
+}
+h1 {
+    font-size: 80px;
+    font-family: var(--header-font);
+}
+h2 {
+    font-size: 25px;
+    line-height: 2;
+
+}
+h3 {
+    font-size: 15px;
+    
+}
+.hero a {
+    margin-right: 150px;
+    margin-top: 100px;
+    background-color: gray;
+    text-decoration: none;
+    color: indigo;
+    border-radius: 4px;
+    padding: 10px;
+}
