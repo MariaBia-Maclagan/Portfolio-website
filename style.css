@@ -1,12 +1,14 @@
 :root{
     --header-font:'Josefin Sans', sans-serif; 
     --secondary-font:'PT Sans Narrow', sans-serif ;
-    --primary-color: ;
+    --primary-color: #66bfbf;
+    --secondary-color:#eaf6f6; 
+    --third-color:#fcfefe;
+    --fourth-color: #f76b8a;
 
 }
 .hero{
-    background-color: bisque;
-    text-align: center;
+    background-color: var(--primary-color);
     margin: 0;
     padding: 160px 20px 130px;
 }
@@ -14,26 +16,47 @@
     font-size: 30px;
     font-weight: bold;
     font-family: var(--secondary-font);
+    text-align: center;
 }
 h1 {
     font-size: 80px;
     font-family: var(--header-font);
+    text-align: center;
 }
 h2 {
     font-size: 25px;
     line-height: 2;
+    text-align: center;
+    font-family: var(--secondary-font);
+}
 
-}
 h3 {
-    font-size: 15px;
-    
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    margin-left: 342px;
 }
+    
 .hero a {
     margin-right: 150px;
     margin-top: 100px;
-    background-color: gray;
+    background-color: var(--secondary-color);
     text-decoration: none;
-    color: indigo;
-    border-radius: 4px;
-    padding: 10px;
+    color: var(--fourth-color);
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: solid 1px var(--primary-color);
+    font-family: var(--secondary-font);
+}
+
+@media (max-width: 576px) {
+    .hero{
+        text-align: center;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h3{
+        margin: 0;
+    }
+    
 }
