@@ -1,8 +1,8 @@
 :root{
     --header-font:'Josefin Sans', sans-serif; 
     --secondary-font:'PT Sans Narrow', sans-serif ;
-    --primary-color: #66bfbf;
-    --secondary-color:#eaf6f6; 
+    --primary-color: #eaf6f6; 
+    --secondary-color:  #66bfbf;
     --third-color:#fcfefe;
     --fourth-color: #f76b8a;
 
@@ -37,17 +37,49 @@ h3 {
 }
     
 .hero a {
+    font-size: 17px;
     margin-right: 150px;
     margin-top: 100px;
     background-color: var(--secondary-color);
     text-decoration: none;
     color: var(--fourth-color);
     border-radius: 20px;
-    padding: 10px 20px;
-    border: solid 1px var(--primary-color);
+    padding: 10px 35px;
+    border: solid 1px var(--secondary-color);
     font-family: var(--secondary-font);
+    box-shadow:1px 16px 20px -10px rgba(0,0,0,0.25);
+}
+.hero a:hover{
+    background-color: var(--third-color);
 }
 
+p{
+    font-size: 36px;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    text-align: center;
+
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 20px;
+    font-family: var(--secondary-font);
+    text-align: left; 
+    line-height: 35px;
+
+}
+img {
+    box-shadow:1px -1px 19px 0px rgba(0,0,0,0.24);
+    border-radius: 20px;
+}
+img:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.100);
+    -ms-transform: scale(1.100);
+        transform: scale(1.100);
+}
 @media (max-width: 576px) {
     .hero{
         text-align: center;
