@@ -1,6 +1,6 @@
 :root{
-    --header-font:'Josefin Sans', sans-serif; 
-    --secondary-font:'PT Sans Narrow', sans-serif ;
+    --header-font:'Josefin Sans', sans-serif;
+    --secondary-font: 'Halant', serif;
     --primary-color: #eaf6f6; 
     --secondary-color:  #66bfbf;
     --third-color:#fcfefe;
@@ -36,49 +36,85 @@ h3 {
     margin-left: 342px;
 }
     
-.hero a {
+.hero .button {
     font-size: 17px;
     margin-right: 150px;
     margin-top: 100px;
-    background-color: var(--secondary-color);
+    background-color: var(--third-color);
     text-decoration: none;
     color: var(--fourth-color);
     border-radius: 20px;
     padding: 10px 35px;
     border: solid 1px var(--secondary-color);
-    font-family: var(--secondary-font);
+    font-family: var(--header-font);
     box-shadow:1px 16px 20px -10px rgba(0,0,0,0.25);
 }
-.hero a:hover{
-    background-color: var(--third-color);
+.hero .button:hover{
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+}
+div .arrow {
+    font-size: 20px;
+    color: var(--secondary-color)
+}
+div .arrow:hover{
+    font-size: 30px;
+    color:var(--fourth-color);
 }
 
 p{
     font-size: 36px;
     font-weight: bold;
-    font-family: var(--primary-font);
+    font-family: var(--secondary-font);
     text-align: center;
 
 }
-ul{
-    list-style: none;
-}
-li{
+h4{
     font-size: 20px;
     font-family: var(--secondary-font);
     text-align: left; 
-    line-height: 35px;
+    line-height: 27px;
+}
+ul{
+    list-style: none;
+     padding: 0;
+}
+li{
+    font-size: 15px;
+    font-family: var(--primary-font);
+    text-align: left; 
+    line-height: 25px;
+    font-weight: bold;
 
 }
+ div .link  a{
+    font-size: 15px;
+    font-family: var(--primary-font);
+    text-decoration: none;
+
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: solid 1px var(--secondary-color);
+    font-family: var(--header-font);
+}
+div .link a:hover{
+    background-color: var(--third-color);
+    color: var(--secondary-color);
+}
+
 img {
     box-shadow:1px -1px 19px 0px rgba(0,0,0,0.24);
     border-radius: 20px;
+    filter:  saturate(80%);
 }
 img:hover{
     cursor: pointer;
-    -webkit-transform: scale(1.100);
-    -ms-transform: scale(1.100);
-        transform: scale(1.100);
+    -webkit-transform: scale(1.050);
+    -ms-transform: scale(1.050);
+        transform: scale(1.050);
+        filter:  saturate(110%);
 }
 @media (max-width: 576px) {
     .hero{
