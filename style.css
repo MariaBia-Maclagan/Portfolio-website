@@ -33,25 +33,25 @@ h2 {
 h3 {
     font-size: 18px;
     font-family: var(--secondary-font);
-    margin-left: 342px;
+    margin-left: 284px;
 }
     
 .hero .button {
     font-size: 17px;
     margin-right: 150px;
     margin-top: 100px;
-    background-color: var(--third-color);
+    background-color: var(--secondary-color);
     text-decoration: none;
-    color: var(--fourth-color);
+    color: var(--third-color);
     border-radius: 20px;
     padding: 10px 35px;
     border: solid 1px var(--secondary-color);
     font-family: var(--header-font);
-    box-shadow:1px 16px 20px -10px rgba(0,0,0,0.25);
+    box-shadow: -2px 11px 22px rgba(0, 0, 0, 0.1);
 }
 .hero .button:hover{
-    background-color: var(--secondary-color);
-    color: var(--third-color);
+    background-color: var(--third-color);
+    color: var(--secondary-color);
 }
 div .arrow {
     font-size: 20px;
@@ -59,7 +59,7 @@ div .arrow {
 }
 div .arrow:hover{
     font-size: 30px;
-    color:var(--fourth-color);
+    
 }
 
 p{
@@ -105,9 +105,9 @@ div .link a:hover{
 }
 
 img {
-    box-shadow:1px -1px 19px 0px rgba(0,0,0,0.24);
-    border-radius: 20px;
-    filter:  saturate(80%);
+    border-radius: 10px;
+    filter:  saturate(74%);
+   
 }
 img:hover{
     cursor: pointer;
@@ -115,6 +115,7 @@ img:hover{
     -ms-transform: scale(1.050);
         transform: scale(1.050);
         filter:  saturate(110%);
+      
 }
 @media (max-width: 576px) {
     .hero{
@@ -123,8 +124,12 @@ img:hover{
     h1{
         font-size: 50px;
     }
+    h2{
+        font-size: 20px;
+    }
     h3{
         margin: 0;
     }
+   
     
 }
