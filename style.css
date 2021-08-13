@@ -126,10 +126,12 @@ img:hover{
     transform: none;
     filter: none;
     cursor: none;
+    border: 1px solid rgb(102, 100, 100)
 }
 .content-container h1{
     font-size: 40px;
     font-family: var(--header-font);
+    line-height: 100px;
 }
 .content-container h2{
     font-size: 25px;
@@ -148,11 +150,19 @@ line-height: 60px;
 font-weight: bold;
 font-family: var(--header-font);
 }
+div .resume {
+    text-decoration: none;
+}
 .content-container .contact a{
     text-decoration: none;
     color: black;
-    opacity: 0.7;
-   
+    opacity: 0.6;
+    line-height: 30px;
+    font-size: 15px;
+    font-family: var(--header-font);
+}
+.icon{
+    font-size: 22px;
 }
 .content-container p {
     font-size: 20px;
