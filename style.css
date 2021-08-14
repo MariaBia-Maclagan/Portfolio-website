@@ -65,7 +65,7 @@ div .arrow:hover{
 p{
     font-size: 36px;
     font-weight: bold;
-    font-family: var(--secondary-font);
+    font-family: var(--header-font);
     text-align: center;
 
 }
@@ -105,8 +105,9 @@ div .link a:hover{
 }
 
  img {
-    border-radius: 10px;
+    border-radius: 4px;
     filter:  saturate(74%);
+    border: 1px solid rgb(168, 166, 166)
    
 }
 img:hover{
@@ -144,14 +145,18 @@ img:hover{
     border-radius: 10px;
 }
 .content-container h3{
-margin: 0;
+margin: 0 0  0 65px;
 font-size: 30px;
 line-height: 60px;
 font-weight: bold;
 font-family: var(--header-font);
 }
-div .resume {
+.resume a {
     text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-size: 17px;
+    font-family: var(--secondary-font);
 }
 .content-container .contact a{
     text-decoration: none;
@@ -165,8 +170,21 @@ div .resume {
     font-size: 22px;
 }
 .content-container p {
-    font-size: 20px;
+    font-size: 18px;
     font-family: var(--secondary-font);
+    font-weight: bold;
+}
+.photography-hero{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 146px 20px 130px;
+}
+.photography-hero h1{
+    font-size: 67px;
+   
+}
+.photography-hero .arrow{
+margin-top: 130px;
 }
 @media (max-width: 576px) {
     .hero{
