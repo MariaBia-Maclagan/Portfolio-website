@@ -10,7 +10,7 @@
 .hero{
     background-color: var(--primary-color);
     margin: 0;
-    padding: 160px 20px 130px;
+    padding: 160px 20px 90px;
 }
 .hero p {
     font-size: 30px;
@@ -177,7 +177,7 @@ font-family: var(--header-font);
 .photography-hero{
     background-color: var(--primary-color);
     margin: 0;
-    padding: 146px 20px 130px;
+    padding: 146px 20px 90px;
 }
 .photography-hero h1{
     font-size: 67px;
