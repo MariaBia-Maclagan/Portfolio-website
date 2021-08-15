@@ -7,6 +7,9 @@
     --fourth-color: #f76b8a;
 
 }
+.nav .nav-link{
+    color: var(--secondary-color) !important
+}
 .hero{
     background-color: var(--primary-color);
     margin: 0;
@@ -52,6 +55,7 @@ h3 {
 .hero .button:hover{
     background-color: var(--third-color);
     color: var(--secondary-color);
+    
 }
 div .arrow {
     font-size: 20px;
@@ -104,18 +108,23 @@ div .link a:hover{
     color: var(--secondary-color);
 }
 
- img {
-    border-radius: 4px;
-    filter:  saturate(74%);
-    border: 1px solid rgb(168, 166, 166)
+.navbar-light .navbar-nav .nav-link  {
+font-family: var(--header-font);
+color: var(--secondary-color)
+} 
+
+ .hero-container img {
+    border-radius: 7px;
+    filter:  saturate(74%);}
    
-}
-img:hover{
+  
+.hero-container img:hover{
     cursor: pointer;
     -webkit-transform: scale(1.050);
     -ms-transform: scale(1.050);
         transform: scale(1.050);
         filter:  saturate(110%);
+        box-shadow: -2px 11px 22px rgba(0, 0, 0, 0.1);
       
 }
 .content-container{
