@@ -1,17 +1,32 @@
+:root{
+    --header-font:'Josefin Sans', sans-serif;
+    --secondary-font: 'Halant', serif;
+    --primary-color: #eaf6f6; 
+    --secondary-color:  #66bfbf;
+    --third-color:#fcfefe;
+    --fourth-color: #f76b8a;
+    
+}
+.navbar-light .navbar-nav .nav-link  {
+font-family: var(--header-font);
+color: var(--secondary-color)
+} 
+
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding:0 4px;
+    
   }
   
   /* Create four equal columns that sits next to each other */
-  .column {
-    flex: 25%;
-    max-width: 25%;
+  .col {
+    flex: 33%;
+    max-width: 33%;
     padding: 0 4px;
   }
   
-  .column img {
+  .col img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
@@ -19,7 +34,7 @@
   
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
-    .column {
+    .col {
       flex: 50%;
       max-width: 50%;
     }
@@ -27,7 +42,7 @@
   
   /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
-    .column {
+    .col {
       flex: 100%;
       max-width: 100%;
     }
