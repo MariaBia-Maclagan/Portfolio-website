@@ -195,6 +195,8 @@ font-family: var(--header-font);
 .photography-hero .arrow{
 margin-top: 130px;
 }
+
+
 @media (max-width: 576px) {
     .hero{
         text-align: center;
