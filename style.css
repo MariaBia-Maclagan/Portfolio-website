@@ -121,9 +121,9 @@ div .link a:hover{
     -ms-transform: scale(1.050);
         transform: scale(1.050);
         filter:  saturate(110%);
-        box-shadow: -2px 11px 22px rgba(0, 0, 0, 0.1);
-      
+        box-shadow: -2px 11px 22px rgba(0, 0, 0, 0.1);  
 }
+
 .content-container{
     padding: 160px 0px ;
 }
@@ -151,11 +151,11 @@ div .link a:hover{
     border-radius: 10px;
 }
 .content-container h3{
-margin: 0 0  0 65px;
-font-size: 30px;
-line-height: 60px;
-font-weight: bold;
-font-family: var(--header-font);
+    margin: 0 0  0 65px;
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: var(--header-font);
 }
 .resume a {
     text-decoration: none;
@@ -187,12 +187,15 @@ font-family: var(--header-font);
 }
 .photography-hero h1{
     font-size: 67px;
-   
+    
 }
 .photography-hero .arrow{
-margin-top: 130px;
+    margin-top: 130px;
 }
 
+.project img {
+    border: none;
+}
 
 @media (max-width: 576px) {
     .hero{

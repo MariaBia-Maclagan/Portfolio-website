@@ -12,6 +12,11 @@ font-family: var(--header-font);
 color: var(--secondary-color)
 } 
 
+h1{
+    font-family: var(--header-font);
+    font-size: 30px;
+    margin: 150px 0 80px 80px;
+}
 .row {
     display: flex;
     flex-wrap: wrap;
