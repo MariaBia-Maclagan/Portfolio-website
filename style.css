@@ -60,7 +60,8 @@ h3 {
 }
 div .arrow {
     font-size: 20px;
-    color: var(--secondary-color)
+    color: var(--secondary-color);
+    transition: all 100ms ease-in-out;
 }
 div .arrow:hover{
     font-size: 30px;
@@ -103,16 +104,20 @@ div .link  a{
     padding: 10px 20px;
     border: solid 1px var(--secondary-color);
     font-family: var(--header-font);
+    transition: all 100ms ease-in-out;
 }
 div .link a:hover{
     background-color: var(--third-color);
     color: var(--secondary-color);
+    
 }
 
 
  .hero-container img {
     border-radius: 4px;
-    filter:  saturate(74%);}
+    filter:  saturate(74%);
+    transition: all 100ms ease-in-out;
+}
    
   
 .hero-container img:hover{
@@ -125,7 +130,7 @@ div .link a:hover{
 }
 
 .content-container{
-    padding: 160px 0px ;
+    padding: 160px 0px  50px 0px;
 }
 .content-container img{
     border-radius: 4px;
@@ -207,14 +212,17 @@ div .link a:hover{
     border-radius: 10px;
     padding:  30px ;
 }
+div .footer{
+text-align: center;
+}
 div footer a {
-
     color: var(--secondary-color);
     background: var(--primary-color);
-    padding: 10px 14px;
-    border-radius: 50%;
-    font-size: 18px;
+    font-size: 15px;
     transition: all 100ms ease-in-out;
+    margin-right: 20px;
+    padding: 15px;
+    border-radius: 100px;
 }
 div footer a:hover{
     background-color: var(--secondary-color);
