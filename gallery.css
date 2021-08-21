@@ -56,7 +56,17 @@ div footer a:hover{
     background-color: var(--secondary-color);
     color: var(--third-color);
 }
+h5{
+  font-size: 15px;
+  font-family: var(--primary-font);
+  margin-top: 40px; 
+}
   
+div .footer h5 a{
+  padding: 0;
+  text-decoration: none;
+  background-color: white;
+}
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
     .col {

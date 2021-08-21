@@ -233,6 +233,11 @@ div footer a:hover{
     background-color: var(--secondary-color);
     color: var(--third-color);
 }
+div .footer h5 a{
+    padding: 0;
+    text-decoration: none;
+    background-color: white;
+}
 
 @media (max-width: 576px) {
     .hero{
