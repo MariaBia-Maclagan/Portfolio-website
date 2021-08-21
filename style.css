@@ -14,7 +14,7 @@ color: var(--secondary-color)
 .hero{
     background-color: var(--primary-color);
     margin: 0;
-    padding: 160px 20px 90px;
+    padding: 100px 20px 90px;
 }
 .hero p {
     font-size: 30px;
@@ -28,16 +28,22 @@ h1 {
     text-align: center;
 }
 h2 {
-    font-size: 25px;
+    font-size: 22px;
     line-height: 2;
-    text-align: center;
     font-family: var(--secondary-font);
+    margin: 0 250px 0 250px;
 }
 
 h3 {
     font-size: 18px;
     font-family: var(--secondary-font);
-    margin-left: 284px;
+    margin-left: 250px;
+}
+
+h5{
+    font-size: 15px;
+    font-family: var(--primary-font);
+    margin-top: 40px; 
 }
     
 .hero .button {
@@ -145,10 +151,9 @@ div .link a:hover{
     font-family: var(--header-font);
     line-height: 100px;
 }
-.content-container h2{
-    font-size: 25px;
-    line-height: 30px;
-    font-family: var(--secondary-font);
+
+.content-container p{
+    line-height: 40px;
 }
 .contact{
     background-color: var(--primary-color);
@@ -188,14 +193,14 @@ div .link a:hover{
 .photography-hero{
     background-color: var(--primary-color);
     margin: 0;
-    padding: 146px 20px 90px;
+    padding: 100px 20px 90px;
 }
 .photography-hero h1{
     font-size: 67px;
     
 }
 .photography-hero .arrow{
-    margin-top: 130px;
+    margin-top: 105px;
 }
 .project img {
     border: none;
