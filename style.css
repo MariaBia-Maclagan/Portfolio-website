@@ -231,22 +231,18 @@ text-align: center;
 }
 div footer a {
     color: var(--secondary-color);
-    background: var(--primary-color);
+   
     font-size: 11px;
     transition: all 100ms ease-in-out;
     margin-right: 20px;
-    padding: 10px;
+   
     border-radius: 100px;
 }
 div footer a:hover{
-    background-color: var(--secondary-color);
-    color: var(--third-color);
+    
+    color: var(--fourth-color);
 }
-.open-sorce{
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
+
 .open-sorce h5 a{
     text-decoration: none;
     font-size:15px;
