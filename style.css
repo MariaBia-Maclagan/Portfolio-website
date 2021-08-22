@@ -101,7 +101,6 @@ li{
 }
 div .link  a{
     font-size: 15px;
-    font-family: var(--primary-font);
     text-decoration: none;
    
     background-color: var(--secondary-color);
@@ -172,7 +171,18 @@ div .link a:hover{
     color: black;
     opacity: 0.6;
     font-size: 17px;
-    font-family: var(--secondary-font);
+    font-family: var(--header-font);
+
+    background-color: var(--secondary-color);
+    color: var(--third-color);
+    border-radius: 15px;
+    padding: 10px 20px;
+    border: solid 1px var(--secondary-color);
+    transition: all 100ms ease-in-out;
+}
+.resume a:hover {
+    background-color: var(--third-color);
+    color: black;
 }
 .content-container .contact a{
     text-decoration: none;
@@ -233,10 +243,15 @@ div footer a:hover{
     background-color: var(--secondary-color);
     color: var(--third-color);
 }
-div .footer h5 a{
+.footer h5 a{
+    
     padding: 0;
     text-decoration: none;
     background-color: white;
+}
+.footer h5 a:hover{
+    background-color: white;
+    color: var(--fourth-color);
 }
 
 @media (max-width: 576px) {

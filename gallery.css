@@ -39,18 +39,16 @@ h1{
   }
 
   div .footer{
-    
 text-align: center;
 }
 div footer a {
-    color: var(--secondary-color);
-    background: var(--primary-color);
-    font-size: 20px;
-    transition: all 100ms ease-in-out;
-    margin-right: 20px;
-    padding: 15px;
-    border-radius: 100px;
-   
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+  margin-right: 20px;
+  padding: 15px;
+  border-radius: 100px;
 }
 div footer a:hover{
     background-color: var(--secondary-color);
@@ -62,10 +60,15 @@ h5{
   margin-top: 40px; 
 }
   
-div .footer h5 a{
+.footer h5 a{
   padding: 0;
+  font-size: 15px;
   text-decoration: none;
   background-color: white;
+}
+.footer h5 a:hover{
+  background-color: white;
+  color: var(--fourth-color);
 }
   /* Responsive layout - makes a two column-layout instead of four columns */
   @media screen and (max-width: 800px) {
